@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.hero-unit {
+    background-color: rgb(243, 243, 243);
+    padding: 40px;
+    width: 300px;
+    margin: 0 auto;
+}
+#peopleModule {
+    text-align: center;
+}
+    #peopleModule li {
+        background-color: lightgreen;
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        list-style-type: none;
+        padding: 10px;
+    }
+        #peopleModule li i {
+            background-color: #000000;
+            border-radius: 50%;
+            color: #ffffff;
+            font-weight: bold;
+            float: right;
+            width: 20px;
+            height: 20px;
+            font-size: 15px;
+            font-family: monospace;
+            cursor: pointer;
+        }
